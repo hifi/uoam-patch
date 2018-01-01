@@ -1,0 +1,4 @@
+config.mk
+*.o
+uoamp.exe
+uoam.exe
