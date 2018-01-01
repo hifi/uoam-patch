@@ -7,6 +7,7 @@ SECTIONS
     .data             0x1033000 : { uoam.exe(.data) . = ALIGN(0x1000); }
     .bss         ALIGN(0x1000) : { . = . + 0x1E80; }
     /DISCARD/                  : { uoam.exe(.rsrc) }
+    /DISCARD/                  : { uoam.exe(.idata) }
 
     .idata       ALIGN(0x1000) : { *(.idata) }
 
