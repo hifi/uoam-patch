@@ -5,6 +5,7 @@ This is a patch set for UOAM to improve compatibility.
 
  - Use map1.mul for Trammel
  - Ignore map diff files (not used anymore)
+ - Completely removed broken auto-update
 
 Based on the final UOAM release 8.2.0.1. You need to obtain it somehow.
 
